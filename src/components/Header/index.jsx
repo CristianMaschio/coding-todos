@@ -4,7 +4,7 @@ export default class Header extends React.PureComponent {
   render() {
     return (
       <header>
-        test
+        <h1>Todo app</h1>
       </header>
     )
   }

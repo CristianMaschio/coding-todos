@@ -4,7 +4,7 @@
  * @author: cristian maschio
  */
 
-import { handlePromise } from "../_apiServices"
+import {handlePromise} from "../_apiServices"
 
 
 function getTodo(index) {
@@ -17,4 +17,19 @@ function getTodos() {
   return handlePromise(promise)
 }
 
-export { getTodo, getTodos }
+function addTodo(title) {
+  const promise = fetch('https://jsonplaceholder.typicode.com/todos', {
+    method: 'POST',
+    body: JSON.stringify({
+      userId: 1,
+      title,
+      completed: false,
+    }),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
+    }
+  })
+  return handlePromise(promise)
+}
+
+export {getTodo, getTodos, addTodo}

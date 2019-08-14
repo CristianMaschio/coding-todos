@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this mini-project realized with limited time, 2 calls were made, 1 get, 1 post for the todos.
+
+The api calls were taken from https://jsonplaceholder.typicode.com/
+
+**Note: for the list to have better performance it could have been used "react-virtualized" or through pagination**
+
+## Step to start the project
+
+npm install
+
+npm start
 
 ## Available Scripts
 

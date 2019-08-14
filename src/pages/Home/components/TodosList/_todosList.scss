@@ -1,0 +1,19 @@
+.todos-list {
+
+  .todo {
+    display: flex;
+    margin: 4px;
+
+    .check-todo {
+      color: $secondary-color;
+      min-width: 24px;
+      min-height: 24px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .todo-text {
+      margin-left: 1em;
+    }
+  }
+}

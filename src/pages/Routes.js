@@ -1,12 +1,12 @@
 import React from 'react'
-import { Switch, Route, withRouter } from "react-router-dom";
+import {Switch, Route, withRouter} from "react-router-dom"
 
 import Home from './Home'
 
-function Routes(){
-  return(
+function Routes() {
+  return (
     <Switch>
-    <Route path="/" exact component={Home} />
+      <Route path="/" exact component={Home}/>
     </Switch>
   )
 }

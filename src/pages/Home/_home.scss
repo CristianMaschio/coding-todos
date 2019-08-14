@@ -1,5 +1,12 @@
 .home {
   width: 100vw;
-  height: calc(100vh - 3rem);
+  min-height: calc(100vh - 3rem);
   background-color: $background-primary-color;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .home-section {
+    min-width: 15rem;
+    padding: 1rem;
+  }
 }

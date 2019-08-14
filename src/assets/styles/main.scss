@@ -1,3 +1,6 @@
+// Antd
+@import "~antd/dist/antd.css";
+
 // Variables
 @import "./_variables";
 
@@ -6,3 +9,4 @@
 
 // Pages
 @import "../../pages/Home/_home";
+@import "../../pages/Home/components/TodosList/_todosList";
