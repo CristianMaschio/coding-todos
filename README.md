@@ -1,8 +1,10 @@
-In this mini-project realized with limited time, 2 calls were made, 1 get, 1 post for the todos.
+In this mini-project realized with limited time, I made 2 api calls, 1 get (all todos), 1 post (add todo).
 
 The api calls were taken from https://jsonplaceholder.typicode.com/
 
-**Note: for the list to have better performance it could have been used "react-virtualized" or through pagination**
+Important: the resource will not be really created on the server but it will be faked as if. 
+
+Note: for the list to have better performance it could have been used "react-virtualized" or through pagination.
 
 ## Step to start the project
 
