@@ -12,9 +12,10 @@ export default class Home extends React.PureComponent {
   };
 
   //--------lifecycle---------
-  componentDidMount = async () => {
-    const todos = await getTodos()
-    this.setState({todos, loading: false})
+  componentDidMount() {
+    getTodos().then(todos => {
+      this.setState({todos, loading: false})
+    }).catch(() => this.setState({loading: false}))
   }
 
   //--------functions---------
