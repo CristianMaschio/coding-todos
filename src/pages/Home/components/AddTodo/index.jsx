@@ -22,11 +22,6 @@ class AddTodo extends React.PureComponent {
     loading: false
   };
 
-  //--------lifecycle---------
-  componentDidMount() {
-    // To disabled submit button at the beginning.
-  }
-
   //--------functions---------
   handleAddTodo = (event) => {
     event.preventDefault()
